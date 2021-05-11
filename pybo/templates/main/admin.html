@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="GAMFLIX">
+    <meta name="author" content="GAMFLIX">
+	  <meta name="keywords" content="game, html, css, javascript">
+    <link rel="stylesheet" href="stylecss.css?ver=1">
+    <link rel="shortcut icon" type="image/x-icon" href="G.ico">
+  	    <title>GAMFLIX</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">GAMFLIX</span></h1>
+        </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="community.html">Community</a></li>
+              <li><a href="update.html">UPDATE</a></li>
+              <li><a href="signup.html">Sign up</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="box">
+          Chat
+      </div>   
+    </div>
+
+
+    <footer>
+      <div class="container">
+          <nav>
+            <ul>
+              <li><a href="support.html">고객지원</a></li>
+              <li class="current"><a href="admin.html">Admin</a></li> 
+              &copy; 2021. GAMFLIX all rights reserved
+              
+                <input id="Dark_Light" type="button" value="Dark" onclick="
+                  if(document.querySelector('#Dark_Light').value === 'Dark'){
+                     document.querySelector('body').style.backgroundColor = 'black';
+                     document.querySelector('body').style.color = 'white ';
+                     document.querySelector('#Dark_Light').value = 'Light';
+                   } 
+                  else {
+                       document.querySelector('body').style.backgroundColor = 'white';
+                       document.querySelector('body').style.color = 'black'; 
+                       document.querySelector('#Dark_Light').value = 'Dark';
+                       }
+                 "> 
+           
+            </ul>
+          </nav>
+      </div>
+    </footer>
+
+  </body>
+</html>
